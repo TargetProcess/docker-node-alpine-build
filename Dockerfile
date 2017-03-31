@@ -5,4 +5,7 @@ RUN apk add --no-cache g++ \
     git \
     make \
     openssh-client \  
-    python
+    python \
+    zlib-dev \
+    openssl \
+    openssl-dev
