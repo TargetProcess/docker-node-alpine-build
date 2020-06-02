@@ -1,4 +1,4 @@
-FROM node:boron-alpine
+FROM node:12-alpine
 
 RUN apk add --no-cache g++ \
     gcc \ 
